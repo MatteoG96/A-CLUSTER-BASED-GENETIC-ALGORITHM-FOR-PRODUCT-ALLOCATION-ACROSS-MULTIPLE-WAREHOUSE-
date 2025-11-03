@@ -1,1 +1,10 @@
+Abstract
+
 In recent years, the growth of e-commerce has driven a trend toward order fulfillment strategies that draw products from multiple dispersed warehouses. This evolution has heightened the need for optimal product allocation to warehouse locations to minimize inter-warehouse shipment flows and reduce order completion times and costs. Despite the practical significance of this allocation problem, there is a lack of heuristic approaches capable of addressing large‐scale, real-world instances. This paper proposes a novel genetic algorithm to solve the multi-warehouse product allocation problem, integrating tailored genetic operators and constraint-handling mechanisms to enhance solution quality. We evaluate the approach on an industrial case study drawn from an e-commerce company, comprising realistic demand and distribution scenarios. Computational experiments demonstrate that our genetic algorithm outperforms baseline methods in reducing total inter-warehouse flow, achieving significant improvements in logistical efficiency. These results clearly confirm the proposed method’s practical applicability and robustness for complex e-commerce fulfillment networks.
+
+Code Nomenclature 
+
+GA_SKU: Proposed GA assigning SKU directly to warehouse
+GA_CAT_X: Proposed GAs assigning clusters of SKU of different size to warehouses
+CATELAN_X: Benchmark heuristic from literature
+SA_CAT: Benchmark Simulated Annealing algorithm assigning cluster of SKU to warehouses
